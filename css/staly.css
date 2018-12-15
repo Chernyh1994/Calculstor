@@ -1,0 +1,71 @@
+#calc{
+    width: 200px;
+    padding: 2px;
+    margin: 0 auto;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding-bottom: 4px;
+    font-size: 0;
+    display: block;
+    position: relative;
+}
+
+.button{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin: 4px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+}
+.button:hover {
+    background: black;
+    color: #fff;
+}
+
+.button.button_C{
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin: 4px;
+    font-size: 16px;
+    text-align: center;
+}
+.mojee{
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid black;
+    color:  rgb(22, 184, 184);
+    margin: 4px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.mojee:hover{
+    color:  black;
+    background:  rgb(22, 184, 184);
+}
+#display{
+    display: block;
+    width: 185px;
+    height: 30px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin: 4px;
+    text-align: right;
+    outline: 0;
+    background: #fff;
+    padding-right: 5px;
+}
